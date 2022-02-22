@@ -1,0 +1,141 @@
+.profile-card{
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 320px;
+    /* height: 100%; */
+    border-bottom: 1px solid white;
+}
+
+.profile-card img{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-card .content{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.profile-card-hover{
+    width: 100%;
+    color: white;
+}
+
+.hoverProp{
+    overflow: hidden;
+}
+
+.hover-card{
+    position: absolute;
+    top: 100%;
+    transition: 0.3s ease-in;
+}
+
+.hoverProp:hover .hover-card{
+    top: 0%;
+}
+
+.pop-card{
+    height: 100%;
+    background: #223247;
+}
+.pop-card div{
+    width: 80%;
+}
+
+.pop-card h2{
+    font-family: PopSemBuild;
+    font-size: 28px;
+}
+
+.pop-card .symText{
+    font-family: PopLight;
+    font-size: 16px;
+    color: #8695A8;
+}
+
+.pop-card-hover{
+    height: 320px;
+    background: #223247;
+}
+
+.pop-card-hover div{
+    width: 80%;
+}
+
+.pop-card-hover h2{
+    font-family: PopSemBuild;
+    font-size: 28px;
+}
+
+.pop-card-hover .symText{
+    font-family: PopLight;
+    font-size: 16px;
+    color: #8695A8;
+}
+
+ .lastCards{
+    border-bottom: none;
+}
+
+
+
+.icon-border{
+    height: 46px;
+    width: 46px;
+    background: #F1AC4D;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon-border-1{
+    height: 46px;
+    width: 46px;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+
+.iposition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.empty-space{
+    height: 145px;
+    background: #14202E;
+}
+
+.selectTag{
+    width: 80%;
+    color: #EFEEF3;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    outline: none;
+}
+
+
+
+
+.profile-card h4{
+    font-family: PopMed;
+    font-size: 18px;
+    color: #ffffff; 
+}
+
+.profile-card p{
+    font-family: PopLight;
+    font-size: 16px;
+    color: #ffffff;
+}

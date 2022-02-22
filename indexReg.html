@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="registrationBox">
+        <!-- <img src="./img/profile_random.jpeg" alt="profile" class="avatar"> -->
+            <h1>Register Here</h1>
+            <form onsubmit="return createUser()" action="#0">
+                <p>User Name</p>
+                <input type="text" name="" placeholder="Enter User Name" id="getNewUser">
+                <span id="nameError" style="color: red;margin-bottom: 5px;"></span>
+                <p>User Email</p>
+                <input type="text" name="" placeholder="Enter your email" id="getNewEmail">
+                <span id="emailError" style="color: red;margin-bottom: 5px;"></span>
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password" id="setPassword">
+                <span id="passError" style="color: red;margin-bottom: 5px;"></span>
+                <p>Confirm Password</p>
+                <input type="password" name="" placeholder="Confirm Password" id="conPassword">
+                <span id="cpassError" style="color: red;margin-bottom: 5px;"></span>
+                <input type="submit" name="" id="loginBtn" value="Create">
+                <a href="./index.html">Go to login page</a>
+            </form>
+    </div>
+    <script src="./register.js"></script>
+</body>
+</html>

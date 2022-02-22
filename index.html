@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="loginbox">
+        <img src="./img/profile_random.jpeg" alt="profile" class="avatar">
+            <h1>Login Here</h1>
+            <form onsubmit="return validateForm()" action="./welcomePage/index.html">
+                <p>User Name</p>
+                <input type="text" name="" placeholder="Enter User Name" id="getUserName">
+                <span class="errorMsg" id="userError"></span>
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password" id="getPassword">
+                <span class="errorMsg" id="passError"></span>
+                <input type="submit" name="" id="loginBtn">
+                <a href="#0">Lost your password?</a><br>
+                <a href="./indexReg.html">Don't have an account?</a>
+            </form>
+    </div>
+    <script src="./validate.js"></script>
+</body>
+</html>
